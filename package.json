@@ -1,0 +1,22 @@
+{
+  "name": "react-native-back",
+  "version": "1.0.0",
+  "description": "react-natvie\b\b\b\b\b\b的路由中，目前用的比较多的是react-navigation,然而，这个框架没有提供对android物理返回键的支持。 在实际的项目中，出现了这些需求： 1、需要指定返回到某个页面,当然肯定是需要通过页面的名称来判断的。 2、需要判断某个页面是否存在，如果存在则返回到这个页面，如果不存在，则push到这个页面 3、需要在某个页面返回的时候展示一个确认对话框，用户点击了确认才能做返回动作 4、用户点击了android的物理返回键，要求功能与点击了页面的返回按钮功能相同。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzoom/react-native-back.git"
+  },
+  "author": "Jane Doe <jane@example.com> (http://blog.example.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jzoom/react-native-back/issues"
+  },
+  "homepage": "https://github.com/jzoom/react-native-back#readme",
+  "dependencies": {
+    "react-navigation": "^2.14.2"
+  }
+}
